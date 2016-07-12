@@ -1,0 +1,30 @@
+WINDOW_TITLE				NomCash V0.0.1
+MENUBAR_FILE					_Datei
+MENUBAR_FILE_IMPORT			Daten _importieren
+MENUBAR_FILE_IMPORT_INFO	Daten aus externen Quellen in NomCash einlesen
+MENUBAR_FILE_EXPORT			Daten _exportieren
+MENUBAR_FILE_EXPORT_INFO	NomCash-Daten in andere Formate exportieren
+MENUBAR_FILE_SAVE				_Speichern
+MENUBAR_FILE_SAVE_INFO		Aktuellen Stand speichern
+MENUBAR_FILE_QUIT				_Beenden
+MENUBAR_FILE_QUIT_INFO		NomCash beenden
+
+MENUBAR_EDIT						_Bearbeiten
+MENUBAR_EDIT_NEW					_Neu
+MENUBAR_EDIT_NEW_INFO			Neue Daten hinzufügen
+MENUBAR_EDIT_NEW_ENTRY			_Eintrag
+MENUBAR_EDIT_NEW_ENTRY_INFO	Eine neue Geldbewegung protokollieren
+MENUBAR_EDIT_NEW_POOL			_Pool
+MENUBAR_EDIT_NEW_POOL_INFO		Einen neuen Geldpool definieren
+MENUBAR_EDIT_NEW_PERSON			Pe_rson
+MENUBAR_EDIT_NEW_PERSON_INFO	Eine neue Person hinzufügen
+MENUBAR_EDIT_SEARCH				_Suchen
+MENUBAR_EDIT_SEARCH_INFO		Alle eingegebenen Geldbewegungen durchsuchen
+MENUBAR_EDIT_SETTINGS			_Einstellungen
+MENUBAR_EDIT_SETTINGS_INFO		Einstellungen einsehen und ändern
+
+MENUBAR_HELP				_Hilfe
+MENUBAR_HELP_INFO			_Info
+MENUBAR_HELP_INFO_INFO	Informationen zu NomCash anzeigen
+
+

@@ -1,0 +1,6 @@
+ENTRYTIME	TIME	MATTER	SOURCE	TARGET	COMMENT	TAGS	AMOUNT	GROUP	ID
+755654562	5634236353	Verschiebung	HaCa	HaGi	Für Fixkosten.	<NA>	70000	<NA>	1
+123415613	1417993200	Einzahlung in €	Portemonnaie	Portemonnaie	Hatte zu viel Bargeld.	Essen/Trinken	10000		2
+123415613	1417993200	Einzahlung in €	Portemonnaie	Portemonnaie	Hatte zu viel Bargeld.	Essen/Trinken	10000		3
+123415613	1417993200	Einzahlung in €	Portemonnaie	Portemonnaie	Hatte zu viel Bargeld.	Essen/Trinken	10000	3	4
+<NA>	1419116400						0	3	5

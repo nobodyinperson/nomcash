@@ -1,0 +1,42 @@
+INFORMATION_WINDOW_TEXT
+<b>nomcash</b>
+Version 0.1
+Release 27.03.2014
+© Yann Büchau
+INFORMATION_WINDOW_TEXT
+
+
+SAVE_ON_QUIT_DIALOG_TEXT
+Möchten Sie vor dem Beenden Speichern?
+SAVE_ON_QUIT_DIALOG_TEXT
+
+
+SAVE_ON_QUIT_DIALOG_TITLE	Speichern?
+
+
+FIRST_START	<b>Erster Aufruf</b>: 
+LAST_START	<b>Letzter Aufruf</b>: 
+AMNT_STARTS	<b>Anzahl Aufrufe</b>: 
+
+
+STATUSBAR_STANDARD		NomCash
+
+SAVE_ON_QUIT_DIALOG_TEXT	Möchten Sie vor dem Beenden Speichern?
+SAVE_ON_QUIT_DIALOG_TITLE	NomCash beenden
+SAVE_ON_QUIT_DIALOG_BUTTON_SAVE_AND_QUIT_TEXT	Speichern und Beenden
+SAVE_ON_QUIT_DIALOG_BUTTON_DONT_SAVE_BUT_QUIT_TEXT	Beenden, ohne zu speichern
+SAVE_ON_QUIT_DIALOG_BUTTON_DONT_QUIT_TEXT Nicht Beenden
+
+INFORMATION_WINDOW_TITLE	Information
+POPUP_WINDOW_TITLE_STANDARD	Information
+
+WORD_NO_DATASET	keine Datensätze
+WORD_DATASET		Datensatz
+WORD_DATASETS		Datensätze
+WORD_NO_CHANGES	keine ungespeicherten Änderungen
+WORD_CHANGE			ungespeicherte Änderung
+WORD_CHANGES		ungespeicherte Änderungen
+
+CURRENCY_NAME	Euro
+CURRENCY_ABBR	EUR
+CURRENCY_SIGN	€

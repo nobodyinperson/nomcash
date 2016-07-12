@@ -1,0 +1,18 @@
+DIAG_GREETING	Willkommen bei nomcash!
+DIAG_YES					ja JA Ja
+DIAG_YES_SHORT			j ja
+DIAG_NO					nein NEIN Nein
+DIAG_NO_SHORT			n nein ne
+DIAG_GOODBYE			Tschuess!
+DIAG_LOGO_KEYWD		logo Logo
+DIAG_VERSION_KEYWD	ver version info
+DIAG_HELP_KEYWD		help hilfe h
+DIAG_HELP				nomcash ist ein Geldverwaltungsprogramm, das hauptsaechlich zur Protokollierug von Geldbewegungen eingesetzt wird.
+DIAG_EXIT_KEYWD		beenden raushier tschuess quit q x exit ende
+DIAG_STATS_KEYWD		stats
+DIAG_STATS_WRITE_KEYWD	write
+DIAG_STATS_ALL_KEYWD	all
+DIAG_STATS_AKT_KEYWD	akt
+DIAG_STATS_CONFIRM_LANG_WRITTEN Verwendungsstatistik der Sprachdaten geschrieben...
+DIAG_STATS_CONFIRM_CONF_WRITTEN Verwendungsstatistik der Konfigurationsdaten geschrieben...
+DIAG_STATS_CONFIRM_PCNF_WRITTEN Verwendungsstatistik der persönlichen Konfigurationsdaten geschrieben...

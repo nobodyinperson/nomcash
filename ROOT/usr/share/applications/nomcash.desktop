@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=NomCash
+Comment=Manage your money
+Exec=nomcash-gtk
+Icon=/usr/share/nomcash/images/nomcash-icon.png
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;Office;Finance

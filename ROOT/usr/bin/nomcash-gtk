@@ -1,0 +1,34 @@
+#!/usr/bin/perl 
+my $SANDBOX; # Sandboxvariable definieren, damit sie im BEGIN-Block belegt werden kann
+BEGIN { 
+	require Cwd; # Absoluten Pfad von Dateien ausgeben können
+	require File::Basename; # Nur den Ordnernamen ausgeben können
+
+	# Sandbox-Variable, wird vor alle Pfade eingefuegt, um Entwicklungsumgebung zu realisieren
+	# Es wird eine normale UNIX-Installation angenommen: Dieses Skript liegt in /usr/bin
+	# Als Sandbox wird also der Ordner angenommen, der zwei Ebenen höher liegt
+	# als der Ordner, in dem dieses Skript liegt
+	$SANDBOX = File::Basename::dirname(Cwd::abs_path(__FILE__)) . "/../..";
+	}
+
+
+# Module laden
+use lib "$SANDBOX/usr/lib/nomcash/Perl/"; # Library-Ordner hinzufuegen
+use strict; # strict sein
+use warnings;	# warnend sein
+use utf8; # Source code is utf8
+binmode STDOUT, ":utf8"; # Output to Terminal is utf8
+use NomCash::Gtk2; # Gtk2-Interface von NomCash einbinden
+use Data::Dumper; # Zum Dumpen von Variablen
+
+# Set the Sandbox variable for the other modules to read
+$NomCash::Info::SANDBOX = $SANDBOX;
+
+# Ordnerstruktur im Homeverzeichnis erstellen
+system("mkdir -p $NomCash::Info::SANDBOX"."$NomCash::Info::HOMEDIR/.nomcash/");
+system("mkdir -p $NomCash::Info::SANDBOX"."$NomCash::Info::HOMEDIR/.nomcash/data");
+system("mkdir -p $NomCash::Info::SANDBOX"."$NomCash::Info::HOMEDIR/.nomcash/conf");
+system("mkdir -p $NomCash::Info::SANDBOX"."$NomCash::Info::HOMEDIR/.nomcash/stats");
+
+# Start Gtk!
+NomCash::Gtk2->Gtk2_start;

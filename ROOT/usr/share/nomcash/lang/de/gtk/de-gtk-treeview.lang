@@ -1,0 +1,38 @@
+TABLE_COLUMN_NAMES_HASH
+ENTRYTIME		<b>Eintragungsdatum</b>
+TIME				<b>Datum Rohformat</b>
+TIME_FORMAT		<b>Datum</b>
+MATTER			<b>Grund</b>
+MATTER_FORMAT	<b>Grund</b>
+SOURCE			<b>Geldursprung</b>
+TARGET			<b>Geldziel</b>
+COMMENT			<b>Kommentar</b>
+TAGS				<b>Schlagwörter</b>
+AMOUNT			<b>Betrag Rohformat</b>
+AMOUNT_FORMAT	<b>Betrag</b>
+TABLE_COLUMN_NAMES_HASH
+
+TABLE_COLUMN_TOOLTIPS_HASH
+ENTRYTIME		Der Zeitpunkt, an dem dieser Eintrag gespeichert wurde.
+TIME				Der Zeitpunkt, zu der diese Geldbewegung stattfindet.
+TIME_FORMAT		Der Zeitpunkt, zu der diese Geldbewegung stattfindet.
+MATTER			Der Grund der Geldbewegung.
+SOURCE			Die Quelle der Geldbewegung.
+TARGET			Das Ziel der Geldbewegung.
+COMMENT			Weitere Erläuterungen zur Geldbewegung.
+TAGS				Schlagwörter zur Kategorisierung der Geldbewegung.
+AMOUNT			Der Betrag der Geldbewegung.
+AMOUNT_FORMAT	Der Betrag der Geldbewegung.
+TABLE_COLUMN_TOOLTIPS_HASH
+
+TREEVIEW_NO_DATASET_FOUND	keine Datensätze gefunden
+
+TREEVIEW_POPUP_MENU_EDIT_TEXT		Bearbeiten
+TREEVIEW_POPUP_MENU_COPY_TEXT		Kopieren und Bearbeiten
+TREEVIEW_POPUP_MENU_DELETE_TEXT	Löschen
+TREEVIEW_POPUP_MENU_SPLIT_TEXT	Aufteilen
+
+TREEVIEW_POPUP_MENU_EDIT_INFO		Die markierten Einträge bearbeiten
+TREEVIEW_POPUP_MENU_COPY_INFO		Die markierten Einträge kopieren und bearbeiten
+TREEVIEW_POPUP_MENU_DELETE_INFO	Die markierten Einträge löschen
+TREEVIEW_POPUP_MENU_SPLIT_INFO	Den markierten Eintrag aufteilen

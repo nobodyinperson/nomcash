@@ -1,0 +1,19 @@
+---------------------------------------------
+--- nomcash - V0.1 = Help getting started ---
+---------------------------------------------
+
+Well you managed to install nomcash, that's great!
+
+With nomcash you have acquired a nice little GTK+ program to manage your money, be it cash or whatever.
+
+You can create Pools which hold your money like your accounts, your pocket or whatever location you store it.
+
+Basically, with nomcash you just protocol the money movements that occur between these pools. 
+
+So that's it, folks!
+
+Now you know everyting about nomcash...
+
+If you're not convinced, email me:
+
+nobodyinperson@gmx.de

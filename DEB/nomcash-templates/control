@@ -1,0 +1,14 @@
+Source: nomcash
+Section: utils
+Priority: extra
+Maintainer: Yann Büchau <nobodyinperson@gmx.de>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.2
+
+Package: nomcash
+Architecture: all
+Depends: ${misc:Depends}, libgtk2-perl, libstatistics-r-perl
+Conflicts: nomcash
+Replaces: nomcash
+Description: Keep an eye on your money
+ NomCash is a program that helps you categorize your money movements.

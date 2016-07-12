@@ -1,0 +1,28 @@
+EDITDIALOG_NEW_TITLE			Neuer Eintrag
+EDITDIALOG_EDIT_TITLE		Eintrag bearbeiten
+EDITDIALOG_SPLIT_TITLE		Eintrag aufteilen
+EDITDIALOG_NO_DATA_TITLE	Eintrag
+
+EDITDIALOG_NEW_HEAD_TEXT		<span size="large"><b>Einen neuen Eintrag speichern</b></span>
+EDITDIALOG_EDIT_HEAD_TEXT		<span size="large"><b>Einen Eintrag bearbeiten</b></span>
+EDITDIALOG_SPLIT_HEAD_TEXT		<span size="large"><b>Einen Eintrag aufteilen</b></span>
+EDITDIALOG_NO_DATA_HEAD_TEXT	<span size="large"><b>Einen neuen Eintrag speichern</b></span>
+
+EDITDIALOG_BUTTON_SAVE		_Speichern
+EDITDIALOG_BUTTON_CANCEL	Abbrechen
+EDITDIALOG_BUTTON_OK			OK
+
+EDITDIALOG_NOTEBOOK_ADD_TAB_TEXT	<b>Auf den Tab oben klicken, um einen neuen Reiter zu öffnen.</b>
+
+EDITDIALOG_NOTEBOOK_TAB_TEXT_IF_NO_COLUMN_FIELD	Eintrag
+
+EDITDIALOG_SECTION_TEXT_HASH
+TIME		<b>Datum: </b>
+MATTER	<b>Grund: </b>
+SOURCE	<b>von: </b>
+TARGET	<b>nach: </b>
+COMMENT	<b>Kommentar: </b>
+TAGS		<b>Schlagwörter: </b>
+AMOUNT	<b>Betrag: </b>
+EDITDIALOG_SECTION_TEXT_HASH
+
