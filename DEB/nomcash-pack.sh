@@ -1,13 +1,13 @@
 #!/bin/bash
-# Script to rapidly packaging nomcash
-
+# Script to rapidly package nomcash
+# run this script from the git root directory
 
 
 # Define variables
 Version="0.1" # Version of NomCash
-NomCashDir="$HOME/Programmieren/NomCash/ROOT/" # /-Directory of nomcash Sandbox: NomCash Source
-NomCashPackageSandbox="$HOME/Programmieren/NomCash/DEB/nomcash-SANDBOX-"`date +'%F_%H-%M-%S'`"/" # Sandbox for Packaging
-TempDir="/tmp/" # Directory for temporary data
+NomCashDir=`pwd`"/ROOT" # /-Directory of nomcash Sandbox: NomCash Source
+NomCashPackageSandbox=`pwd`"/DEB/build/nomcash-SANDBOX-"`date +'%F_%H-%M-%S'` # Sandbox for Packaging
+TempDir="/tmp" # Directory for temporary data
 DebianFiles=$@ # Files to include into debian directory
 StartDir=`pwd` # Starting directory
 
@@ -21,9 +21,8 @@ echo -e "
 "
 
 # Check whether there are parameters at all, otherwise set defaults
-if [ -z $DebianFiles ]; then
-	echo -e "
-\033[31mError: \033[0mNo files given as parameters! You have to specify files you would like to include in the debian/ directory just by using them as arguments!"
+if [ -z "$DebianFiles" ]; then
+	echo -e " \033[31mError: \033[0mNo files given as parameters! You have to specify files you would like to include in the debian/ directory just by using them as arguments!"
 	exit
 fi
 
@@ -117,15 +116,13 @@ echo
 # Now source is ready to copy to Packaging-Sandbox
 
 # Copy modified source from temp directory to Packaging-Sandbox
-echo
-echo -n "Copying adjusted sourcefolder usr/ from tempdir $Tempdir/nomcash/ to packaging sandbox $NomCashPackaginSandbox/nomcash-$Version ... "
-cd $TempDir/nomcash && # Go into root-directory of modified source
-cp -r usr $NomCashPackageSandbox/nomcash-$Version/
+echo -n "Copying adjusted sourcefolder $TempDir/nomcash/usr from tempdir $TempDir/nomcash to packaging sandbox $NomCashPackageSandbox/nomcash-$Version ... "
+cp -r $TempDir/nomcash/usr $NomCashPackageSandbox/nomcash-$Version/
 if [ $? = 0 ]; then
 	echo -e "\033[32mdone!\033[0m"
 else
 	echo -e "\033[31mfail!\033[0m"
-	echo "Could not copy NomCash usr/ folder from tempdir $TempDir to packaging sandbox $NomCashPackaginSandbox/nomcash-$Version!"
+	echo "Could not copy NomCash usr/ folder from tempdir $TempDir/nomcash/usr to packaging sandbox $NomCashPackageSandbox/nomcash-$Version!"
 	exit 1;
 fi
 
