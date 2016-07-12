@@ -60,3 +60,4 @@ vignettes/*.pdf
 
 # ignore everything in the DEB/build folder
 DEB/build
+ROOT/home/*
