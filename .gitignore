@@ -58,6 +58,8 @@ vignettes/*.pdf
 *.utf8.md
 *.knit.md
 
-# ignore everything in the DEB/build folder
-DEB/build
-ROOT/home/*
+# temporary build files
+debian/*.substvars
+debian/*.log
+debian/*-build-stamp
+debian/files

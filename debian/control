@@ -1,7 +1,7 @@
 Source: nomcash
 Section: utils
 Priority: extra
-Maintainer: Yann Büchau <nobodyinperson@gmx.de>
+Maintainer: Yann Büchau <yann.buechau@web.de>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.2
 
